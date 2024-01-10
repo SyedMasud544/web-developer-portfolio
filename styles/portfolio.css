@@ -1,8 +1,10 @@
 /* nav related style */
 nav {
-    display: flex;
-    justify-content: space-between;
     align-items: center;
+    justify-content:space-between;
+    display: flex;
+    
+
 }
 
 .nav_title {
@@ -43,6 +45,7 @@ body {
 nav>ul {
     display: flex;
     align-items: center;
+   margin: 50px;
 
 }
 
@@ -55,4 +58,8 @@ nav a {
     text-decoration: none;
     color: #474747;
 
+}
+
+.head{
+    background-color: #FFF8F3;
 }

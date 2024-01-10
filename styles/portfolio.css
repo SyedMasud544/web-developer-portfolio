@@ -3,6 +3,7 @@ nav {
     align-items: center;
     justify-content:space-between;
     display: flex;
+    margin: 0 200px;
     
 
 }
@@ -45,13 +46,12 @@ body {
 nav>ul {
     display: flex;
     align-items: center;
-   margin: 50px;
 
 }
 
 nav li {
     list-style: none;
-    margin-right: 50px;
+    margin-right: 20px;
 }
 
 nav a {
@@ -59,7 +59,16 @@ nav a {
     color: #474747;
 
 }
-
+/* hedaer */
 .head{
     background-color: #FFF8F3;
+
+}
+.banner{
+    padding: 30px 30px 30px 150px;
+    display: flex;
+    align-items: center;
+}
+.banner .profile{
+    width: 500px;
 }
